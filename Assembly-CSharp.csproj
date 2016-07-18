@@ -45,12 +45,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Character.cs" />
-     <Compile Include="Assets\EnemyAI.cs" />
-     <Compile Include="Assets\Frostbolt.cs" />
-     <Compile Include="Assets\GameController.cs" />
-     <Compile Include="Assets\PlayerController.cs" />
-     <Compile Include="Assets\Skill.cs" />
+     <Compile Include="Assets\SampleUI\Scripts\ApplicationManager.cs" />
+     <Compile Include="Assets\SampleUI\Scripts\PanelManager.cs" />
+     <Compile Include="Assets\SampleUI\Scripts\TiltWindow.cs" />
+     <Compile Include="Assets\Scripts\Buff.cs" />
+     <Compile Include="Assets\Scripts\Character.cs" />
+     <Compile Include="Assets\Scripts\DestroyWithDamage.cs" />
+     <Compile Include="Assets\Scripts\EnemyAI.cs" />
+     <Compile Include="Assets\Scripts\Frostbolt.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Skill.cs" />
+     <None Include="Assets\SampleUI\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\SampleUI\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\SampleUI\Materials\UI-Default-No-Alpha.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
