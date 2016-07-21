@@ -45,19 +45,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Model\Assets\MonsterBaseTeam\Scripts\ButtonInterface.js" />
-     <Compile Include="Assets\Model\Assets\MonsterBaseTeam\Scripts\CamControl.js" />
-     <Compile Include="Assets\Model\Assets\MonsterBaseTeam\Scripts\StringHold.js" />
-     <Compile Include="Assets\Model\Assets\MonsterBaseTeam\Scripts\color.js" />
-     <Compile Include="Assets\Model\Assets\MonsterBaseTeam\Scripts\shadow.js" />
-     <Compile Include="Assets\Model\Assets\MonsterBaseTeam\Scripts\wpcontrol.js" />
-     <Compile Include="Assets\Model\Assets\MonsterBaseTeam\Scripts\wpgroup.js" />
+     <Compile Include="Assets\KY_effects\Script\ConGUI.js" />
+     <Compile Include="Assets\KY_effects\Script\Lighting.js" />
+     <Compile Include="Assets\KY_effects\Script\MeshAnime.js" />
+     <Compile Include="Assets\KY_effects\Script\ParticleAction.js" />
+     <Compile Include="Assets\KY_effects\Script\ThisDestroy.js" />
+     <None Include="Assets\KY_effects\Quest and RPG FX\shader\myDistorsion.shader" />
      <None Include="Assets\SampleUI\Fonts\Jupiter\LICENSE.txt" />
      <None Include="Assets\SampleUI\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\KY_effects\Quest and RPG FX\ReadMe.txt" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\KY_effects\Quest and RPG FX\shader\myDistorsionNN.shader" />
      <None Include="Assets\SampleUI\Materials\UI-Default-No-Alpha.shader" />
-     <None Include="Assets\Model\Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

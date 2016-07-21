@@ -10,7 +10,8 @@ public class Health : MonoBehaviour
 
 	public int currentHealth = maxHealth;
 
-	public RectTransform healthBar;
+	//	public RectTransform healthBar;
+	public Slider healthSlider;
 
 	public void TakeDamage (int amount)
 	{
@@ -29,7 +30,8 @@ public class Health : MonoBehaviour
 
 	void OnChangeHealth (int currentHealth)
 	{
-		healthBar.sizeDelta = new Vector2 (currentHealth, healthBar.sizeDelta.y);
+//		healthBar.sizeDelta = new Vector2 (currentHealth, healthBar.sizeDelta.y);
+		healthSlider.value = (float)currentHealth / maxHealth;
 	}
 
 }

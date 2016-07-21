@@ -24,7 +24,6 @@ public class Character : MonoBehaviour
 
 	public void Move (float h, float v)
 	{
-//		transform.Translate (new Vector3 (horizontal, 0, vertical));
 		animator.SetFloat ("speed", h * h + v * v);
 		transform.LookAt (transform.position + new Vector3 (h, 0, v));
 	}

@@ -45,35 +45,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AnimatoScripts\NormalAttack.cs" />
-     <Compile Include="Assets\Model\Assets\Scripts\AnimatorController.cs" />
-     <Compile Include="Assets\Model\Assets\Scripts\CameraController.cs" />
-     <Compile Include="Assets\Model\Assets\Scripts\MonsterAnimator.cs" />
-     <Compile Include="Assets\Model\Assets\Scripts\SkillSystem.cs" />
-     <Compile Include="Assets\Model\Assets\Scripts\hanbingjian.cs" />
-     <Compile Include="Assets\Model\Assets\Scripts\playerController.cs" />
-     <Compile Include="Assets\Model\Assets\Scripts\skill.cs" />
-     <Compile Include="Assets\Model\Assets\Scripts\trigger.cs" />
      <Compile Include="Assets\SampleUI\Scripts\ApplicationManager.cs" />
      <Compile Include="Assets\SampleUI\Scripts\PanelManager.cs" />
      <Compile Include="Assets\SampleUI\Scripts\TiltWindow.cs" />
+     <Compile Include="Assets\Scripts\AnimationScrpt\AnimationAutoEnd.cs" />
+     <Compile Include="Assets\Scripts\AnimationScrpt\NormalAttack.cs" />
      <Compile Include="Assets\Scripts\Billboard.cs" />
      <Compile Include="Assets\Scripts\Character.cs" />
      <Compile Include="Assets\Scripts\DamageOnContact.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
+     <Compile Include="Assets\Scripts\FireballCollider.cs" />
      <Compile Include="Assets\Scripts\FollowPlayer.cs" />
-     <Compile Include="Assets\Scripts\Frostbolt.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
-     <Compile Include="Assets\Scripts\IBuff.cs" />
-     <Compile Include="Assets\Scripts\ISkill.cs" />
+     <Compile Include="Assets\Scripts\Interfaces\IBuff.cs" />
+     <Compile Include="Assets\Scripts\Interfaces\ISkill.cs" />
+     <Compile Include="Assets\Scripts\Interfaces\ISkillFinish.cs" />
+     <Compile Include="Assets\Scripts\Interfaces\ISkillHitTarget.cs" />
+     <Compile Include="Assets\Scripts\PlayerAnimatorController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Skills\Fire1.cs" />
+     <Compile Include="Assets\Scripts\Skills\Frostbolt.cs" />
+     <None Include="Assets\KY_effects\Quest and RPG FX\shader\myDistorsion.shader" />
      <None Include="Assets\SampleUI\Fonts\Jupiter\LICENSE.txt" />
      <None Include="Assets\SampleUI\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\KY_effects\Quest and RPG FX\ReadMe.txt" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\KY_effects\Quest and RPG FX\shader\myDistorsionNN.shader" />
      <None Include="Assets\SampleUI\Materials\UI-Default-No-Alpha.shader" />
-     <None Include="Assets\Model\Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
